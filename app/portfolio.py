@@ -1,3 +1,8 @@
+import os
+os.environ["CHROMA_API_IMPL"] = "local"
+
+
+
 import pandas as pd
 import chromadb
 import uuid
